@@ -1,0 +1,14 @@
+.home-card{
+    margin:0% 25% 5% 25%;
+    padding:0% 5% 5% 5%;
+
+    background-color: rgba(0, 113, 241, 0.41);
+}
+.homeh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+
+}

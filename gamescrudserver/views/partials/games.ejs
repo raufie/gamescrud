@@ -1,0 +1,19 @@
+<% for(i=0;i <games.length;i++){ %>
+    <div class="card" style="width: 90%;">
+        <div class="card-body">
+            <h5 class="card-title">
+                <%=games[i].name%>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+                <%=games[i].description%>
+            </h6>
+            <p class="card-text">
+                <%=games[i].platform%>
+            </p>
+            <p class="card-text">
+                <%=games[i].genre%>
+            </p>
+
+        </div>
+    </div>
+    <% } %>

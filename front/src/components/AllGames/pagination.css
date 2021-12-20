@@ -1,0 +1,12 @@
+.pagination_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+
+}
+.pagenumber {
+    font-size: 3vh;
+    margin: 5px;
+}

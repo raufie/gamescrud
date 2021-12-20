@@ -1,0 +1,32 @@
+<div style="margin:auto 15% " ">
+    <div class=" form-group">
+    <label for="name-input">Name</label>
+    <input type="text" class="form-control" id="name-input" placeholder="game name">
+</div>
+<div class="form-group">
+    <label for="description-input">Description</label>
+    <input type="text" class="form-control" id="description-input" placeholder="game description">
+</div>
+<div class="form-group">
+    <label for="platform-input">Platform</label>
+    <select class="form-control" id="platform-input">
+        <% for(i=0; i<platforms.length;i++){ %>
+            <option>
+                <%= platforms[i]%>
+            </option>
+            <% } %>
+    </select>
+</div>
+<div class="form-group">
+    <label for="genre-input">Genre</label>
+    <select class="form-control" id="genre-input">
+        <% for(i=0; i<genres.length;i++){ %>
+            <option>
+                <%= genres[i]%>
+            </option>
+            <% } %>
+    </select>
+</div>
+<button type="submit" class="btn btn-primary" onclick="addGame()">Submit</button>
+<p id="form-message"></p>
+</div>

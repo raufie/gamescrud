@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* universal  custom classes come here, others are attached with components */
+.navlink {
+  text-decoration: none;
+  color:white;
+  font-size: 5vh;
+  margin: 1vh;
+}
+.card {
+  border: solid ;
+  border-radius: 25%;
+  margin: 5% 10%;
+}
+.button {
+  margin:5% auto;
+}
